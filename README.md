@@ -91,7 +91,9 @@ console.log(myText.substring(4));
 console.log(myText.slice(4));
 ```
 ```javascript
-
+console.log(myText.substr(4,6));
+console.log(myText.substring(4,10));
+console.log(myText.slice(4,10));
 ```
 ```javascript
 
