@@ -103,7 +103,8 @@ console.log(myText.substring(-4));
 console.log(myText.slice(-4));
 ```
 ```javascript
-
+console.log(myText.substring(10,4));
+console.log(myText.slice(10,4));
 ```
 ```javascript
 

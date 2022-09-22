@@ -94,3 +94,7 @@ console.log(myText.slice(4,10));
 console.log(myText.substr(-4));
 console.log(myText.substring(-4));
 console.log(myText.slice(-4));
+
+
+console.log(myText.substring(10,4));
+console.log(myText.slice(10,4));
