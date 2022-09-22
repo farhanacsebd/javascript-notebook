@@ -71,3 +71,10 @@ console.log(10 + 20 + "hi tasmi" + 40);
 // era always strign return kore   
 console.log(typeof "hello");
 console.log(typeof new Date());
+
+
+// type conversion
+console.log(Number()); 
+console.log(Number('')); 
+console.log(Number(' ')); 
+console.log(Number("34 56"));
