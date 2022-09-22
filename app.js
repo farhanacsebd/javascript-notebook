@@ -59,3 +59,9 @@ increaseAge(person);
 
 console.log(person);
  
+
+
+// concatenration 
+console.log(10+40);
+console.log(10+ "hello");
+console.log(10 + 20 + "hi tasmi" + 40);
