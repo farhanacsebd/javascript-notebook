@@ -107,3 +107,28 @@ var mystr = tasmi.substring(index+1);
 console.log(mystr);
 
 console.log(tasmi.replace('farhana','farhan'));
+
+
+
+
+// array ki na
+var myArray15 = [1,4,7];
+var myObj15 = {
+    name: "tasmi"
+} 
+console.log(Array.isArray(myObj15));
+console.log(Array.isArray(myArray15));
+
+
+var myArray14 = [2,45,21];
+console.log(myArray14.push(50));
+console.log(myArray14);
+
+
+var myArray13 = [2,45,21];
+var popLength = myArray13.pop();
+console.log(popLength);
+
+var myArray12 = [2,45,21,56,45,67,2,5,58];
+console.log(myArray12.indexOf(45));
+console.log(myArray12.lastIndexOf(45));
