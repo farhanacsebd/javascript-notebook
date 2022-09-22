@@ -72,7 +72,10 @@ console.log(10+ "hello");
 console.log(10 + 20 + "hi tasmi" + 40);
 ```
 ```javascript
-
+// typeof ekta operator 
+// era always strign return kore   
+console.log(typeof "hello");
+console.log(typeof new Date());
 ```
 ```javascript
 
