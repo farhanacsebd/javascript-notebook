@@ -78,3 +78,9 @@ console.log(Number());
 console.log(Number('')); 
 console.log(Number(' ')); 
 console.log(Number("34 56"));
+
+
+let myText = "JavaScript";
+console.log(myText.substr(4));
+console.log(myText.substring(4));
+console.log(myText.slice(4));
