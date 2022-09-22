@@ -106,6 +106,14 @@ console.log(myText.slice(-4));
 console.log(myText.substring(10,4));
 console.log(myText.slice(10,4));
 ```
+#### example:
 ```javascript
+// example:
+var tasmi = "farhana.cse.bd@gmail.com";
+var index = tasmi.indexOf('@');
+// console.log(index);
+var mystr = tasmi.substring(index+1);
+console.log(mystr);
 
+console.log(tasmi.replace('farhana','farhan'));
 ```
