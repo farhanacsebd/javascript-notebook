@@ -149,6 +149,10 @@ var value11 = [23,54,12,78,51,23,4,56,88];
 var sliced = value11.splice(2,3);
 console.log(sliced); 
 console.log(value11);
+
+
+var added = value11.splice(2,2,22,11,33);
+console.log(value11);
 ```
 ```javascript
 
