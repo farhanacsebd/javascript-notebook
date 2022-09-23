@@ -142,8 +142,13 @@ var myArray12 = [2,45,21,56,45,67,2,5,58];
 console.log(myArray12.indexOf(45));
 console.log(myArray12.lastIndexOf(45));
 ```
+#### splice:
 ```javascript
-
+// splice  
+var value11 = [23,54,12,78,51,23,4,56,88];
+var sliced = value11.splice(2,3);
+console.log(sliced); 
+console.log(value11);
 ```
 ```javascript
 

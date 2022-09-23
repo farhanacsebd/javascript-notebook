@@ -132,3 +132,25 @@ console.log(popLength);
 var myArray12 = [2,45,21,56,45,67,2,5,58];
 console.log(myArray12.indexOf(45));
 console.log(myArray12.lastIndexOf(45));
+
+
+// splice  
+var value11 = [23,54,12,78,51,23,4,56,88];
+// var sliced = value11.splice(2,3);
+// console.log(sliced); 
+// console.log(value11); 
+
+var added = value11.splice(2,2,22,11,33);
+console.log(value11);
+
+
+
+// specific kono value k remove korte 
+var nums13 = [12,34,56,67,21];
+
+
+var arr11 = [1,2,3];
+var arr12 = [4,5,6];
+var arr13 = [7,8,9];
+var arr14 = arr11.concat(arr12,arr13,59);
+console.log(arr14);
